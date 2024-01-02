@@ -1,0 +1,143 @@
+<world>
+  <include>
+    <uri>model://my_robot</uri>
+    <pose>0 0 0 0 0 0</pose>
+  </include>
+
+  <!-- Define the Cartesian points as models -->
+  <model name="Addis_Ababa">
+    <pose>7 6 0 0 0 0</pose>
+    <static>true</static>
+    <link name="trike_link">
+      <pose>0 0 0 0 0 0</pose>
+      <visual name="trike_visual">
+        <geometry>
+          <mesh>
+            <uri>/home/ashu/Documents/AI/AI/Final Project/38-futuristic-trike-high-poly/Futuristic Trike High-Poly.blend</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+  <model name="Ambo">
+    <pose>6 6 0 0 0 0</pose>
+  </model>
+  <model name="Nekemete">
+    <pose>4 6 0 0 0 0</pose>
+  </model>
+  <model name="Gimbi">
+    <pose>3 6 0 0 0 0</pose>
+  </model>
+  <model name="Dembi_Dollo">
+    <pose>1 6 0 0 0 0</pose>
+  </model>
+  <model name="Debre_Birhan">
+    <pose>8 7 0 0 0 0</pose>
+  </model>
+  <model name="Awash">
+    <pose>10 6 0 0 0 0</pose>
+  </model>
+  <model name="Chiro">
+    <pose>11 6 0 0 0 0</pose>
+  </model>
+  <model name="Dire_Dawa">
+    <pose>12 6 0 0 0 0</pose>
+  </model>
+  <model name="Harar">
+    <pose>13 5 0 0 0 0</pose>
+  </model>
+  <model name="Babile">
+    <pose>14 5 0 0 0 0</pose>
+  </model>
+  <model name="Jigjiga">
+    <pose>15 5 0 0 0 0</pose>
+  </model>
+  <model name="Dega_Habur">
+    <pose>15 4 0 0 0 0</pose>
+  </model>
+  <model name="Goba">
+    <pose>11 2 0 0 0 0</pose>
+  </model>
+  <model name="Sor_Oumer">
+    <pose>12 1 0 0 0 0</pose>
+  </model>
+  <model name="Kebri_Dehar">
+    <pose>17 2 0 0 0 0</pose>
+  </model>
+  <model name="Gode">
+    <pose>16 0 0 0 0 0</pose>
+  </model>
+  <model name="Bale">
+    <pose>10 0 0 0 0 0</pose>
+  </model>
+  <model name="Dodolla">
+    <pose>9 1 0 0 0 0</pose>
+  </model>
+  <model name="Assasa">
+    <pose>9 2 0 0 0 0</pose>
+  </model>
+  <model name="Assella">
+    <pose>10 3 0 0 0 0</pose>
+  </model>
+  <model name="Adama">
+    <pose>8 4 0 0 0 0</pose>
+  </model>
+  <model name="Matahara">
+    <pose>10 4 0 0 0 0</pose>
+  </model>
+  <model name="Batu">
+    <pose>7 5 0 0 0 0</pose>
+  </model>
+  <model name="Buta_Jirra">
+    <pose>6 4 0 0 0 0</pose>
+  </model>
+  <model name="Worabe">
+    <pose>5 3 0 0 0 0</pose>
+  </model>
+  <model name="Wolkite">
+    <pose>5 5 0 0 0 0</pose>
+  </model>
+  <model name="Jimma">
+    <pose>4 4 0 0 0 0</pose>
+  </model>
+  <model name="Bedelle">
+    <pose>3 5 0 0 0 0</pose>
+  </model>
+  <model name="Gore">
+    <pose>2 4 0 0 0 0</pose>
+  </model>
+  <model name="Gambela">
+    <pose>1 5 0 0 0</pose>
+  </model>
+  <model name="Tepi">
+    <pose>2 3 0 0 0 0</pose>
+  </model>
+  <model name="Bonga">
+    <pose>3 3 0 0 0 0</pose>
+  </model>
+  <model name="Mizan_Teferi">
+    <pose>4 2 0 0 0 0</pose>
+  </model>
+  <model name="Dawro">
+    <pose>4 1 0 0 0 0</pose>
+  </model>
+  <model name="Arba_Minch">
+    <pose>5 0 0 0 0 0</pose>
+  </model>
+  <model name="Wolaita_Sodo">
+    <pose>6 1 0 0 0 0</pose>
+  </model>
+  <model name="Hossana">
+    <pose>6 3 0 0 0 0</pose>
+  </model>
+  <model name="Shashemene">
+    <pose>7 3 0 0 0 0</pose>
+  </model>
+  <model name="Hawassa">
+    <pose>8 2 0 0 0 0</pose>
+  </model>
+  <model name="Dilla">
+    <pose>9 3 0 0 0 0</pose>
+  </model>
+</world>
