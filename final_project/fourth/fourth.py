@@ -137,4 +137,4 @@ class MiniMaxAgent:
 
 agent = MiniMax(graph, utilities, 5)
 
-print(agent.search('Fincha'))
+print(agent.search('Addis Ababa'))
